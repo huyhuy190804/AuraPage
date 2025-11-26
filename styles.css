@@ -1,0 +1,400 @@
+main {
+  background-color: #0f766e;
+  padding: 48px 32px;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 56px;
+  background-color: rgb(240 253 244);
+  border-radius: 24px;
+}
+button {
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+.header__items--left {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 8px;
+  font-weight: 600;
+  font-family: "Geist", sans-serif !important;
+  line-height: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.header__items--center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  font-size: 14px;
+  color: #64748b;
+  font-family: "Geist", sans-serif !important;
+}
+.header__items--right {
+  margin-left: 24px;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  border: 1px solid #06b6d4;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #06b6d4;
+  font-weight: bold;
+}
+.header__content {
+  margin-top: 48px;
+  display: flex;
+  gap: 40px;
+}
+.header__content img {
+  max-width: 532px;
+  border-radius: 12px;
+}
+.header__content--left--title {
+  font-size: 60px;
+  font-weight: 600;
+  width: 532px;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.header__content--left--description {
+  max-width: 512px;
+  margin-top: 24px;
+  font-family: "Geist", sans-serif !important;
+  font-size: 18px;
+  color: #475569;
+  line-height: 28px;
+}
+.header__content--button {
+  margin-top: 32px;
+}
+.header__content--button--left {
+  padding: 12px 24px;
+  border-radius: 9999px;
+  color: #ffffff;
+  background-color: #06b6d4;
+  font-weight: bold;
+  border: 1px solid #06b6d4;
+}
+.header__content--button--right {
+  padding: 12px 24px;
+  border-radius: 9999px;
+  color: #0f172a;
+  background-color: #f0fdf4;
+  font-weight: bold;
+  border: 1px solid #cbd5e1;
+}
+.header__content--about {
+  margin-top: 64px;
+  display: flex;
+  width: 100%;
+  gap: 48px;
+}
+.header__content--about--item {
+  color: #0f172a;
+  font-size: 36px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.header__content--about--item--description {
+  margin-top: 4px;
+  font-size: 14px;
+  font-family: "Geist", sans-serif;
+}
+.header__content--about--item--divider {
+  border: 1px solid #e5e7eb;
+  width: 1px;
+  height: 48px;
+  background-color: #cbd5e1;
+}
+.header__items--left .items--left--icons {
+  min-width: 40px;
+  min-height: 40px;
+  background: rgb(15 23 42 / var(--tw-bg-opacity, 1));
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-header__contains {
+  margin-top: 80px;
+  padding: 0 32px;
+}
+.body-header__contains--title {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  color: rgb(15 23 42 / var(--tw-text-opacity, 1));
+}
+.body-header__contains--description {
+  max-width: 672px;
+  margin-top: 16px;
+  font-size: 18px;
+  color: rgb(71 85 105 / var(--tw-text-opacity, 1));
+  font-family: "Geist", sans-serif !important;
+  line-height: 28px;
+}
+.body-header__contains--item {
+  margin-top: 48px;
+  display: flex;
+  gap: 40px;
+}
+.body-header__contains--item--card {
+  display: grid;
+  padding: 24px;
+  gap: 16px;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  border-radius: 16px;
+  align-items: flex-start;
+  border: 1px solid #e5e7eb;
+}
+.body-header__contains--item--card svg {
+  width: 28px;
+  height: 28px;
+  color: rgb(6 182 212 / var(--tw-text-opacity, 1));
+}
+.body-header__contains--item--title {
+  color: rgb(15 23 42 / var(--tw-text-opacity, 1));
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.body-header__contains--item--description {
+  color: rgb(71 85 105 / var(--tw-text-opacity, 1));
+  font-size: 16px;
+  font-family: "Geist", sans-serif;
+}
+.body-header__contains--item--card:hover {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+hr {
+  border: 1px solid #e2e8f0;
+  margin-top: 80px;
+}
+.footer-header__contains {
+  padding-top: 64px;
+}
+.footer-header__contains--title {
+  color: rgb(15 23 42 / var(--tw-text-opacity, 1));
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.footer-header__contains--description {
+  margin-top: 16px;
+  font-family: "Geist", sans-serif !important;
+  font-size: 18px;
+  max-width: 672px;
+  color: rgb(71 85 105 / var(--tw-text-opacity, 1));
+}
+.footer-header__contains--items {
+  display: grid;
+  align-items: center;
+  gap: 40px;
+  margin-top: 48px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.footer-header__contains--items--card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  height: 100%;
+}
+.footer-header__contains--items--card:hover {
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.footer-header__contains--items--card--title {
+  color: rgb(15 23 42 / var(--tw-text-opacity, 1));
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.footer-header__contains--items--card--description {
+  color: #475569;
+  margin-top: 8px;
+  font-family: "Geist", sans-serif;
+}
+.footer-header__contains--items--card--price {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 36px;
+  margin-top: 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  align-items: baseline;
+}
+.month {
+  color: #475569;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Geist", sans-serif;
+}
+.footer-header__contains--items--card--features {
+  margin-top: 32px;
+}
+.footer-header__contains--items--card--features--item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.footer-header__contains--items--card--features--item svg {
+  width: 20px;
+  height: 20px;
+  color: #06b6d4;
+  font-family: "Geist", sans-serif;
+}
+.footer-header__contains--items--card--button {
+  margin-top: 16px;
+  padding: 12px 24px;
+  background-color: #06b6d4;
+  color: white;
+  border-radius: 9999px;
+  border: 1px solid #06b6d4;
+  font-size: 14px;
+}
+.footer-header__contains--items--card--button--sale {
+  margin-top: 32px;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: #06b6d4;
+  border-radius: 9999px;
+  border: 1px solid #06b6d4;
+  font-size: 14px;
+}
+.footer-header__contains--items--card--pro {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  border-radius: 16px;
+  border: 1px solid #06b6d4;
+  height: 100%;
+}
+.FAQ {
+  margin-top: 80px;
+}
+.FAQ__title {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.FAQ__description {
+  color: #475569;
+  font-size: 18px;
+  max-width: 672px;
+  margin-top: 16px;
+  font-family: "Geist", sans-serif !important;
+}
+.FAQ__items {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.FAQ__items--item {
+  padding: 24px 0;
+  border-top: 1px solid #e5e7eb;
+}
+.FAQ__items--item--title {
+  display: flex;
+  justify-content: space-between;
+}
+.FAQ__items--item--title--button {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(240 253 244);
+  border: none;
+  padding: 0;
+}
+.FAQ__items--item--title--button--icon {
+  color: #06b6d4;
+  background-color: rgb(240 253 244);
+  border: none;
+}
+.FAQ__items--item--description {
+  margin-top: 16px;
+  color: #475569;
+  font-size: 16px;
+  font-family: "Geist", sans-serif;
+}
+.CTA {
+  margin-top: 80px;
+  padding: 0 32px;
+  background-image: url("imgs/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  display: grid;
+  place-items: center;
+}
+
+.CTA__container {
+  padding: 64px 0;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  max-width: 1280px;
+  color: white;
+}
+
+.CTA__container--content--title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.CTA__container--content--description {
+  margin: 16px 160px 0 160px;
+  color: #cffafe;
+  font-size: 18px;
+  max-width: 576px;
+  line-height: 28px;
+  font-family: "Geist", sans-serif;
+}
+
+.CTA__container--content--buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 32px;
+}
+.CTA__container--content--buttons--button--start {
+  color: rgb(8 145 178 / var(--tw-text-opacity, 1));
+  font-weight: 600;
+  padding: 12px 32px;
+  font-family: "Geist", sans-serif;
+  border-radius: 9999px;
+  border: none;
+  background-color: white;
+}
+.CTA__container--content--buttons--button--start:hover {
+  background-color: #ecfeff;
+}
+.CTA__container--content--buttons--button--contact {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-weight: 600;
+  padding: 12px 32px;
+  font-family: "Geist", sans-serif;
+  border-radius: 9999px;
+  border: 1px solid white;
+}
+.CTA__container--content--buttons--button--contact:hover {
+  background-color: rgb(6 182 212 / var(--tw-bg-opacity, 1));
+  border-color: rgb(6 182 212 / var(--tw-border-opacity, 1));
+}
