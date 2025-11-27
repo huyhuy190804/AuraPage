@@ -2,15 +2,23 @@ main {
   background-color: #0f766e;
   padding: 48px 32px;
 }
+body {
+  margin: 0;
+}
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 56px;
   background-color: rgb(240 253 244);
   border-radius: 24px;
 }
+.container-padding {
+  padding: 56px;
+}
 button {
+  cursor: pointer;
+}
+a {
   cursor: pointer;
 }
 nav {
@@ -40,8 +48,23 @@ nav {
   gap: 32px;
   font-size: 14px;
   color: #64748b;
-  font-family: "Geist", sans-serif !important;
+  font-family: "Geist", sans-serif;
 }
+.header__items--center--item--first {
+  color: #334155;
+}
+.header__items--center--item--second:hover {
+  color: #334155;
+}
+
+.header__items--center--item--third:hover {
+  color: #334155;
+}
+
+.header__items--center--item--fourth:hover {
+  color: #334155;
+}
+
 .header__items--right {
   margin-left: 24px;
   padding: 10px 20px;
@@ -51,6 +74,10 @@ nav {
   color: #ffffff;
   background-color: #06b6d4;
   font-weight: bold;
+}
+.header__items--right:hover {
+  background-color: #0891b2;
+  border-color: #0891b2;
 }
 .header__content {
   margin-top: 48px;
@@ -86,6 +113,10 @@ nav {
   font-weight: bold;
   border: 1px solid #06b6d4;
 }
+.header__content--button--left:hover {
+  background-color: #0891b2;
+  border-color: #0891b2;
+}
 .header__content--button--right {
   padding: 12px 24px;
   border-radius: 9999px;
@@ -93,6 +124,9 @@ nav {
   background-color: #f0fdf4;
   font-weight: bold;
   border: 1px solid #cbd5e1;
+}
+.header__content--button--right:hover {
+  border-color: #94a3b8;
 }
 .header__content--about {
   margin-top: 64px;
@@ -213,7 +247,7 @@ hr {
   height: 100%;
 }
 .footer-header__contains--items--card:hover {
-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 .footer-header__contains--items--card--title {
   color: rgb(15 23 42 / var(--tw-text-opacity, 1));
@@ -265,6 +299,10 @@ box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   border: 1px solid #06b6d4;
   font-size: 14px;
 }
+.footer-header__contains--items--card--button:hover {
+  background-color: #0891b2;
+  border-color: #0891b2;
+}
 .footer-header__contains--items--card--button--sale {
   margin-top: 32px;
   padding: 12px 24px;
@@ -273,6 +311,10 @@ box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   border-radius: 9999px;
   border: 1px solid #06b6d4;
   font-size: 14px;
+}
+.footer-header__contains--items--card--button--sale:hover {
+  background-color: #ecfeff;
+  border-color: #06b6d4;
 }
 .footer-header__contains--items--card--pro {
   display: flex;
@@ -397,4 +439,73 @@ box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 .CTA__container--content--buttons--button--contact:hover {
   background-color: rgb(6 182 212 / var(--tw-bg-opacity, 1));
   border-color: rgb(6 182 212 / var(--tw-border-opacity, 1));
+}
+.header__items--menu {
+  display: none;
+}
+@media (max-width: 768px) {
+  main {
+    padding: 48px 24px;
+  }
+  .container-padding {
+    padding: 24px;
+  }
+  .header__items--menu {
+    border: none;
+    background-color: transparent;
+  }
+  nav {
+    padding: 12px 14px;
+  }
+  .header__content--left--title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .header__content--left--description {
+    max-width: 100%;
+  }
+  .header__content--button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .header__content {
+    display: grid;
+  }
+  .header__items--center {
+    display: none;
+  }
+  .header__items--right {
+    display: none;
+  }
+  .body-header__contains--item {
+    display: grid;
+  }
+  .header__content--left--description {
+    max-width: 100%;
+  }
+  .header__content img {
+    max-width: 100%;
+  }
+  .footer-header__contains--items {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .footer-header__contains--items--card {
+    height: auto;
+  }
+  .footer-header__contains--items--card--pro {
+    height: auto;
+  }
+  .FAQ__items--item--title--button {
+    text-align: left;
+  }
+  .CTA__container {
+    max-width: 100%;
+  }
+  .CTA__container--content--description {
+    margin: 0;
+  }
 }
