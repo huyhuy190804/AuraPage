@@ -508,4 +508,7 @@ hr {
   .CTA__container--content--description {
     margin: 0;
   }
+  .header__content--about--item--divider {
+    display: none;
+  }
 }
